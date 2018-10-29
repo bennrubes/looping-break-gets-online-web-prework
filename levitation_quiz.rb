@@ -4,9 +4,8 @@ def levitation_quiz
 	  puts "What is the spell that enacts levitation?"
 	  answer = gets.chomp
 	  break if answer == "Wingardiuam Leviosa"
-	  puts "You passed the quiz!"
 	  end
-	end
+	  puts "You passed the quiz!"
 end
 
-
+levitation_quiz
